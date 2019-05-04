@@ -1,0 +1,31 @@
+.city-list {
+    flex-basis: 70%;
+    margin-top: $m-size;
+}
+
+.city-list-item {
+    margin-bottom: $s-size;
+}
+
+.city-list-item__remove {
+    background: none;
+    border: 1px solid $light-grey;
+    border-radius: 4px;
+    color: $dark-grey;
+    margin-right: $xs-size;
+    padding: 1px $xs-size;
+
+    &:hover {
+        background: $off-white;
+    }
+}
+
+.city-list-item__info {
+    text-transform: capitalize;
+}
+
+@media (max-width: $mobile-breakpoint) {
+    .city-list {
+        flex-basis: 100%;
+    }
+}

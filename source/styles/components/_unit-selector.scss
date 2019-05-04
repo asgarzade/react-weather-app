@@ -1,0 +1,16 @@
+.unit-selector {
+    margin-left: 5rem;
+}
+
+.unit-selector__radio {
+    margin-bottom: $xs-size;
+}
+
+@media (max-width: $mobile-breakpoint) {
+    .unit-selector {
+        margin: 0;
+    }
+    .unit-selector__radio:first-of-type {
+        margin-top: $m-size;
+    }
+}
